@@ -1,0 +1,18 @@
+# 키 페어 / 인증 관련 (절대 커밋 금지)
+*.pem
+*.ppk
+
+# AWS 자격증명
+.aws/
+credentials
+
+# OS / 에디터 생성 파일
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Terraform 사용 시 (나중에 추가될 수 있음)
+*.tfstate
+*.tfstate.*
+.terraform/
